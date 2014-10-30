@@ -1,0 +1,21 @@
+{
+  "name": "bitcoin-block-streaming-parser",
+  "version": "1.0.0",
+  "description": "Input a stream of blocks in binary format, and outputs a stream of parsed blocks as objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "keywords": [
+    "bitcoin",
+    "block",
+    "parser"
+  ],
+  "author": "Stanislas Marion <stanislas.marion@gmail.com> (http://github.com/czzarr)",
+  "license": "MIT",
+  "dependencies": {
+    "bcoin-protocol": "^1.2.0",
+    "inherits": "^2.0.1",
+    "readable-stream": "^1.0.33"
+  }
+}
