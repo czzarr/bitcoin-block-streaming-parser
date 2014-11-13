@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-block-streaming-parser",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Input a stream of blocks in binary format, and outputs a stream of parsed blocks as objects",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "url": "https://github.com/czzarr/bitcoin-block-streaming-parser.git"
   },
   "dependencies": {
-    "bcoin-protocol": "^1.2.0",
+    "bcoin-protocol": "^1.4.0",
     "inherits": "^2.0.1",
     "readable-stream": "^1.0.33"
   }
